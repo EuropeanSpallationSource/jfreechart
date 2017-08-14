@@ -2,6 +2,11 @@
 *  JFREECHART: Version 1.0.19  *
 ********************************
 
+*****************************************************************************************
+*  WARNING: This is an ESS Specific branch with modifications you probably do not want! *
+*****************************************************************************************
+
+
 31 July 2014
 
 (C)opyright 2000-2014, by Object Refinery Limited and Contributors.

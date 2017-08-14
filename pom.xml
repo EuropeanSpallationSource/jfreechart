@@ -6,11 +6,11 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <name>JFreeChart</name>
+    <name>JFreeChart-FX</name>
 
-    <artifactId>jfreechart</artifactId>
+    <artifactId>jfreechart-fx</artifactId>
     <groupId>org.jfree</groupId>
-    <version>1.0.19.1</version>
+    <version>1.0.19</version>
     <packaging>jar</packaging>
 
     <!-- this is required to host it on Sonatype's OSSRH -->
@@ -172,18 +172,6 @@
                   </goals>
                 </execution>
               </executions>
-            </plugin>
-
-            <plugin>
-              <groupId>org.sonatype.plugins</groupId>
-              <artifactId>nexus-staging-maven-plugin</artifactId>
-              <version>1.6.2</version>
-              <extensions>true</extensions>
-              <configuration>
-                <serverId>ossrh</serverId>
-                <nexusUrl>https://oss.sonatype.org/</nexusUrl>
-                <autoReleaseAfterClose>false</autoReleaseAfterClose>
-              </configuration>
             </plugin>
 
             <plugin>
